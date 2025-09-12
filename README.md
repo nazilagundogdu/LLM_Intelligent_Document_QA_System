@@ -6,7 +6,11 @@
 This project aims to build a Q&amp;A system that takes long documents (e.g. academic papers, manuals, legal docs) and allows users to ask questions in natural language. The system retrieves relevant content and uses an LLM to generate accurate, grounded answers.
 
 
-~~09/04/2025 Update: run `python parse-download.py` , it will download 5 pdf files related to the search word "electron" -> TODO: Need to update the search query parameters.~~
+For the purpose of this project, I focus on papers on "Alzheimer" disease published on `arXiv.org`. Due to limitation of computational resources, I limit my API call to only 1000 entries. 
 
-09/11/2025 Update: `parse.py` ready - `EDA.ipynb` ready. Run `python parse.py` to download a `json` file with metadata for 1000 papers on "Alzheimer". 
+**Step 1:** [`parse.py`](https://github.com/nazilagundogdu/LLM_Intelligent_Document_QA_System/blob/main/parse.py) downloads a `.json` file with metadata for 1000 papers on "Alzheimer".
+
+**Step 2:** ['EDA.ipynb'](https://github.com/nazilagundogdu/LLM_Intelligent_Document_QA_System/blob/main/EDA.ipynb) provides a high level analysis of the data, e.g. number of authors, length of abstracts, etc.
+
+**Step3:** [`Preprocessing&Modeling.ipynb`](https://github.com/nazilagundogdu/LLM_Intelligent_Document_QA_System/blob/main/Preprocessing%26Modeling.ipynb) includes feeding the data as part of a RAG (Retrieval Augmented Generation) architect, invoking an LLM from the `Hugging Face` library and an example of a QA.
 
