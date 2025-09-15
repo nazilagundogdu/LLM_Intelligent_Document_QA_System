@@ -12,5 +12,5 @@ For the purpose of this project, I focus on papers on "Alzheimer" disease publis
 
 **Step 2:** ['EDA.ipynb'](https://github.com/nazilagundogdu/LLM_Intelligent_Document_QA_System/blob/main/EDA.ipynb) provides a high level analysis of the data, e.g. number of authors, length of abstracts, etc.
 
-**Step3:** [`Preprocessing&Modeling.ipynb`](Preprocessing&Modeling_clean.ipynb) includes feeding the data as part of a RAG (Retrieval Augmented Generation) architect, invoking an LLM from the `Hugging Face` library and an example of a QA.
+**Step3:** [`Preprocessing&Modeling.ipynb`](Preprocessing&Modeling_clean.ipynb) includes feeding the data as part of a RAG (Retrieval Augmented Generation) architect, using [PyMuPDF](https://pymupdf.readthedocs.io/en/latest/index.html) to handle document data, invoking an LLM from the `Hugging Face` library and an example of a QA.
 
