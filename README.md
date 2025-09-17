@@ -1,16 +1,24 @@
 # LLM_Intelligent_Document_QA_System (IN PROGRESS)
 
-## This project is not finished and is still in progress. Please come back later! 
+## 🚧 This project is currently under development. Please check back later!
 
 
-This project aims to build a Q&amp;A system that takes long documents (e.g. academic papers, manuals, legal docs) and allows users to ask questions in natural language. The system retrieves relevant content and uses an LLM to generate accurate, grounded answers.
+This project aims to build a Question-Answering (QA) system for long documents (e.g., academic papers, manuals, legal documents) using a Retrieval-Augmented Generation (RAG) architecture. The system retrieves relevant chunks of content and uses a large language model (LLM) to generate accurate, grounded answers in natural language.
 
+For this prototype, the focus is on academic papers about **Alzheimer's disease** published on [arXiv.org](https://arxiv.org/). Due to computational resource constraints, API calls are limited to **1,000 entries**.
 
-For the purpose of this project, I focus on papers on "Alzheimer" disease published on `arXiv.org`. Due to limitation of computational resources, I limit my API call to only 1000 entries. 
+---
 
-**Step 1:** [`parse.py`](https://github.com/nazilagundogdu/LLM_Intelligent_Document_QA_System/blob/main/parse.py) downloads a `.json` file with metadata for 1000 papers on "Alzheimer".
+### Notebooks
 
-**Step 2:** ['EDA.ipynb'](https://github.com/nazilagundogdu/LLM_Intelligent_Document_QA_System/blob/main/EDA.ipynb) provides a high level analysis of the data, e.g. number of authors, length of abstracts, etc.
+**Notebook 1:** [`EDA.ipynb`](https://github.com/nazilagundogdu/LLM_Intelligent_Document_QA_System/blob/main/EDA.ipynb)  
+Exploratory Data Analysis — includes insights such as number of authors, abstract lengths, and other metadata distributions.
 
-**Step3:** [`Preprocessing&Modeling.ipynb`](Preprocessing&Modeling_clean.ipynb) includes feeding the data as part of a RAG (Retrieval Augmented Generation) architect, using [PyMuPDF](https://pymupdf.readthedocs.io/en/latest/index.html) to handle document data, invoking an LLM from the `Hugging Face` library and an example of a QA.
+**Notebook 2:** [`Preprocessing&Modeling_Full_text.ipynb`](Preprocessing&Modeling_Full_text.ipynb)  
+Implements the RAG pipeline: full-text ingestion using [PyMuPDF](https://pymupdf.readthedocs.io/en/latest/index.html), semantic chunking, vector embeddings, and LLM querying using Hugging Face models.
+
+---
+### Python Script
+A minimal, interactive Python script to test the QA system in the terminal via: `python alzheimer_pipeline_a.py`
+
 
