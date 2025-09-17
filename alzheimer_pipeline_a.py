@@ -8,7 +8,7 @@ from llama_index.llms.huggingface import HuggingFaceLLM
 from huggingface_hub import notebook_login  # optional if using gated models
 
 
-def preprocess(filename: str = "entry.json"):
+def preprocess(filename: str = "data/entry.json"):
     """
     Loads and preprocesses the data from a JSON file,
     creates vector embeddings, and returns a query engine.
@@ -57,7 +57,7 @@ def main():
     initialize_llm()
 
     # Step 2: Preprocess and build index
-    query_engine = preprocess("entry.json")
+    query_engine = preprocess("data/entry.json")
 
     # Step 3: Ask a question
     question = input("Ask a question about Alzheimer's research: ")
