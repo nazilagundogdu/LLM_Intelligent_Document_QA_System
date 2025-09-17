@@ -1,0 +1,103 @@
+{
+    "0": {
+        "link": "http://arxiv.org/abs/cond-mat/0102536v1",
+        "published": "2001-02-28T20:12:09Z",
+        "title": "Impact of Electron-Electron Cusp on Configuration Interaction Energies",
+        "summary": "The effect of the electron-electron cusp on the convergence of configuration\ninteraction (CI) wave functions is examined. By analogy with the\npseudopotential approach for electron-ion interactions, an effective\nelectron-electron interaction is developed which closely reproduces the\nscattering of the Coulomb interaction but is smooth and finite at zero\nelectron-electron separation. The exact many-electron wave function for this\nsmooth effective interaction has no cusp at zero electron-electron separation.\nWe perform CI and quantum Monte Carlo calculations for He and Be atoms, both\nwith the Coulomb electron-electron interaction and with the smooth effective\nelectron-electron interaction. We find that convergence of the CI expansion of\nthe wave function for the smooth electron-electron interaction is not\nsignificantly improved compared with that for the divergent Coulomb interaction\nfor energy differences on the order of 1 mHartree. This shows that, contrary to\npopular belief, description of the electron-electron cusp is not a limiting\nfactor, to within chemical accuracy, for CI calculations.",
+        "authors": [
+            {
+                "name": "David Prendergast"
+            },
+            {
+                "name": "M. Nolan"
+            },
+            {
+                "name": "Claudia Filippi"
+            },
+            {
+                "name": "Stephen Fahy"
+            },
+            {
+                "name": "J. C. Greer"
+            }
+        ],
+        "arxiv_affiliation": "NMRC, University College, Cork, Ireland",
+        "author": "J. C. Greer"
+    },
+    "1": {
+        "link": "http://arxiv.org/abs/astro-ph/0608371v1",
+        "published": "2006-08-17T14:05:46Z",
+        "title": "Electron thermal conductivity owing to collisions between degenerate\n  electrons",
+        "summary": "We calculate the thermal conductivity of electrons produced by\nelectron-electron Coulomb scattering in a strongly degenerate electron gas\ntaking into account the Landau damping of transverse plasmons. The Landau\ndamping strongly reduces this conductivity in the domain of ultrarelativistic\nelectrons at temperatures below the electron plasma temperature. In the inner\ncrust of a neutron star at temperatures T < 1e7 K this thermal conductivity\ncompletely dominates over the electron conductivity due to electron-ion\n(electron-phonon) scattering and becomes competitive with the the electron\nconductivity due to scattering of electrons by impurity ions.",
+        "authors": [
+            {
+                "name": "P. S. Shternin"
+            },
+            {
+                "name": "D. G. Yakovlev"
+            }
+        ],
+        "arxiv_affiliation": "Ioffe Physico-Technical Institute",
+        "author": "D. G. Yakovlev"
+    },
+    "2": {
+        "link": "http://arxiv.org/abs/2505.08081v1",
+        "published": "2025-05-12T21:29:22Z",
+        "title": "Electron-phonon coupling in correlated materials: insights from the\n  Hubbard-Holstein model",
+        "summary": "Dynamical mean-field theory computations of the electron self energy of the\nHubbard-Holstein model as a function of electron-phonon and electron-electron\ninteractions are analyzed to gain insight into the dependence of\nelectron-phonon couplings on correlation strength in quantum materials. We find\nthat the electron-phonon interaction is strongly suppressed by electronic\ncorrelations, while electron-electron correlation effects at Fermi liquid\nscales are only weakly modified by coupling to phonons, with phonon-induced\nmodifications most evident at high frequencies on the order of the electronic\nbandwidth. Implications for beyond-density functional theories of the\nelectron-phonon interaction are discussed.",
+        "authors": [
+            {
+                "name": "Jennifer Coulter"
+            },
+            {
+                "name": "Andrew J. Millis"
+            }
+        ],
+        "author": "Andrew J. Millis"
+    },
+    "3": {
+        "link": "http://arxiv.org/abs/1802.06593v1",
+        "published": "2018-02-19T11:51:42Z",
+        "title": "Electron pairing: from metastable electron pair to bipolaron",
+        "summary": "Starting from the shell structure in atoms and the significant correlation\nwithin electron pairs, we distinguish the exchange-correlation effects between\ntwo electrons of opposite spins occupying the same orbital from the average\ncorrelation among many electrons in a crystal. In the periodic potential of the\ncrystal with lattice constant larger than the effective Bohr radius of the\nvalence electrons, these correlated electron pairs can form a metastable energy\nband above the corresponding single-electron band separated by an energy gap.\nIn order to determine if these metastable electron pairs can be stabilized, we\ncalculate the many-electron exchange-correlation renormalization and the\npolaron correction to the two-band system with single electrons and electron\npairs. We find that the electron-phonon interaction is essential to\ncounterbalance the Coulomb repulsion and to stabilize the electron pairs. The\ninterplay of the electron-electron and electron-phonon interactions, manifested\nin the exchange-correlation energies, polaron effects, and screening, is\nresponsible for the formation of electron pairs (bipolarons) that are located\non the Fermi surface of the single-electron band.",
+        "authors": [
+            {
+                "name": "Guo-Qiang Hai"
+            },
+            {
+                "name": "Ladir C\u00e2ndido"
+            },
+            {
+                "name": "Braulio G. A. Brito"
+            },
+            {
+                "name": "Fran\u00e7ois M. Peeters"
+            }
+        ],
+        "author": "Fran\u00e7ois M. Peeters"
+    },
+    "4": {
+        "link": "http://arxiv.org/abs/2010.01066v1",
+        "published": "2020-10-02T15:46:56Z",
+        "title": "Electron Temperature Anisotropy and Electron Beam Constraints From\n  Electron Kinetic Instabilities in the Solar Wind",
+        "summary": "Electron temperature anisotropies and electron beams are nonthermal features\nof the observed nonequilibrium electron velocity distributions in the solar\nwind. In collision-poor plasmas these nonequilibrium distributions are expected\nto be regulated by kinetic instabilities through wave-particle interactions.\nThis study considers electron instabilities driven by the interplay of core\nelectron temperature anisotropies and the electron beam, and firstly gives a\ncomprehensive analysis of instabilities in arbitrary directions to the\nbackground magnetic field. It clarifies the dominant parameter regime (e.g.,\nparallel core electron plasma beta $\\beta_{\\mathrm{ec\\parallel}}$, core\nelectron temperature anisotropy $A_{\\mathrm{ec}}\\equiv\nT_{\\mathrm{ec\\perp}}/T_{\\mathrm{ec\\parallel}}$, and electron beam velocity\n$V_{\\mathrm{eb}}$) for each kind of electron instability (e.g., the electron\nbeam-driven electron acoustic/magnetoacoustic instability, the electron\nbeam-driven whistler instability, the electromagnetic electron cyclotron\ninstability, the electron mirror instability, the electron firehose\ninstability, and the ordinary-mode instability). It finds that the electron\nbeam can destabilize electron acoustic/magnetoacoustic waves in the\nlow-$\\beta_{\\mathrm{ec\\parallel}}$ regime, and whistler waves in the medium-\nand large-$\\beta_{\\mathrm{ec\\parallel}}$ regime. It also finds that a new\noblique fast-magnetosonic/whistler instability is driven by the electron beam\nwith $V_{\\mathrm{eb}}\\gtrsim7V_{\\mathrm{A}}$ in a regime where\n$\\beta_{\\mathrm{ec\\parallel}}\\sim0.1-2$ and $A_{\\mathrm{ec}}<1$. Moreover, this\nstudy presents electromagnetic responses of each kind of electron instability.\nThese results provide a comprehensive overview for electron instability\nconstraints on core electron temperature anisotropies and electron beams in the\nsolar wind.",
+        "authors": [
+            {
+                "name": "Heyu Sun"
+            },
+            {
+                "name": "Jinsong Zhao"
+            },
+            {
+                "name": "Wen Liu"
+            },
+            {
+                "name": "Huasheng Xie"
+            },
+            {
+                "name": "Dejin Wu"
+            }
+        ],
+        "author": "Dejin Wu"
+    }
+}
