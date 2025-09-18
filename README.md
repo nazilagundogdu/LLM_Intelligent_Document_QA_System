@@ -19,7 +19,10 @@ Implements the RAG pipeline: online full-text ingestion using [PyMuPDF](https://
 
 ---
 ### Python Script
-A minimal, interactive Python script to test the QA system in the terminal via: `python alzheimer_pipeline_a.py`. This would require a local `json` file. It could be the file obtained via API call or a random `json` file on your laptop. The file used in the script is `entry.json`, available on the current repo. 
+
+**Script 1:** `parse.py` makes an API call to [arXiv.org](arXiv.org) that pulls metadata for 1000 papers on "Alzheimer"
+
+**Script 2:** A minimal, interactive Python script to test the QA system in the terminal via: `python alzheimer_pipeline_a.py`. This would require a local `json` file. It could be the file obtained via API call or a random `json` file on your laptop. The file used in the script is `entry.json`, available on the current repo. 
 
 
 
