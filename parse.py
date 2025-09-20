@@ -9,10 +9,9 @@ import pandas as pd
 # Base api query url
 base_url = 'http://export.arxiv.org/api/query?';
 
-# Search parameters -> TODO: generalize this
-search_query = 'all:electron' # search for electron in all fields
-start = 0                     # retreive the first 5 results
-max_results = 5
+search_query = 'all:alzheimer' # search for alzheimer in all fields
+start = 0                     
+max_results = 1000    # retreive 1000 results
 
 query = 'search_query=%s&start=%i&max_results=%i' % (search_query,
                                                      start,
@@ -35,10 +34,7 @@ for i in range(len(d.entries)):
             del dict_format[i][item]
             
 # write the data in a json file
-with open('entry.json', 'w') as f:
+with open('alzheimer.json', 'w') as f:
     json.dump(dict_format, f, indent = 4)
     print(f'The data was written in {f}.')
 
-# read the data in a dataframe
-df = pd.read_json('entry.json')
-df
