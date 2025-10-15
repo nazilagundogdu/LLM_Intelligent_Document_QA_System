@@ -5,7 +5,7 @@
 This project aims to build a Question-Answering (QA) system for long documents (e.g., academic papers, manuals, legal documents) using a Retrieval-Augmented Generation (RAG) architecture (figure below). The system retrieves relevant chunks of content and uses a large language model (LLM) to generate accurate, grounded answers in natural language.
 
 <div align="center">
-  <img src="img/RAG-Architecture.png" alt="RAG" width="400"/>
+  <img src="../img/RAG-Architecture.png" alt="RAG" width="400"/>
 </div>
 
 
@@ -20,7 +20,7 @@ Once the data is downloaded, the wrangling includes the use of `nltk` library fo
 
 
 <div align="center">
-  <img src="img/authors.png" alt="authors" width="500"/>
+  <img src="../img/authors.png" alt="authors" width="500"/>
 </div>
 
 
@@ -38,8 +38,8 @@ prompt_4 = prompt_3 + " Give me a number."
 The model's answers before implementing RAG is as follows:
 
 <div align="center">
-  <img src="img/answer1-before-RAG.png" alt="answer1" width="600"/>
-   <img src="img/answer2-before-RAG.png" alt="answer2" width="600"/>
+  <img src="../img/answer1-before-RAG.png" alt="answer1" width="600"/>
+   <img src="../img/answer2-before-RAG.png" alt="answer2" width="600"/>
 </div>
 
 The preprocessing included:
@@ -51,7 +51,7 @@ The preprocessing included:
 Once the data is ready, I invoke the LLM by initializing a query engine. The following is the model answer to the same prompts using RAG.
 
 <div align="center">
-  <img src="img/answer-RAG.png" alt="answer-rag" width="800"/>
+  <img src="../img/answer-RAG.png" alt="answer-rag" width="800"/>
 </div>
 
 
