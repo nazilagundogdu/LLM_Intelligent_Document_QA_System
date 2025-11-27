@@ -81,7 +81,6 @@ LLM_Intelligent_Document_QA_System/
 ├── Modeling.ipynb              # RAG pipeline + evaluation
 │
 ├── img/                        # Figures and diagrams
-├── documentation/              # Additional documentation
 └── README.md                   # Project documentation
 
 
